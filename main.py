@@ -5,12 +5,12 @@ import streamlit as st
 from streamlit_chat import message
 
 from langgraph.prebuilt import create_react_agent
-from langchain.chat_models import init_chat_model
+from langchain_cerebras import ChatCerebras
 from langgraph.checkpoint.memory import MemorySaver
 
 def load_agent():
     """Logic for loading the agent you want to use should go here."""
-    llm = init_chat_model("gpt-4o-mini", model_provider="openai", temperature=0)
+    llm = ChatCerebras(model="llama3.1-8b")
     # You can declare tools here
     # https://python.langchain.com/docs/how_to/custom_tools/
     tools = []

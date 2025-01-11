@@ -12,7 +12,7 @@ Depending on the type of your chain, you may also need to change the inputs/outp
 ## Deploy on Streamlit
 
 This is easily deployable on the Streamlit platform.
-Note that when setting up your Streamlit app you should make sure to add `OPENAI_API_KEY` as a secret environment variable.
+Note that when setting up your Streamlit app you should make sure to add `CEREBRAS_API_KEY` as a secret environment variable.
 
 ## Setting up LangSmith
 

@@ -1,5 +1,5 @@
 langchain
 langgraph
-langchain_openai
+langchain_cerebras
 streamlit
 streamlit-chat
